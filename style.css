@@ -1,0 +1,71 @@
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+:root {
+    --primary-color:#458FF6;
+    --secondary-color:#7D7987;
+    --light-color: #FB8230;
+    
+}
+
+.hero-p {
+    font-size: 33px;
+    font-weight: 250;
+    line-height: 3rem;
+}
+
+.register_btn {
+  background-color: var(--primary-color);
+  color: white;
+
+}
+
+.service-card {
+    border: 1px solid  #FFFFFF;
+    position: relative;
+}
+
+.service-image {
+  position: absolute;
+  top: 770px;
+  left: 0;
+}
+
+.image-element {
+  position: absolute;
+  top: 1300px;
+  right: 0;
+}
+
+.review {
+  background: linear-gradient(to bottom, #67C3F3, #5A98F2);
+  position: relative;
+}
+
+.review-content {
+  position: relative;
+}
+
+.right-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  width: 6%;
+  opacity: 30%;
+  height: 115px;
+  
+}
+
+.left-img {
+  position: absolute;
+  z-index: -1;
+  bottom: -1px;
+  left: -50px;
+  width: 10%;
+}
+
+.card-body {
+  position: relative;
+}
