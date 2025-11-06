@@ -4,9 +4,7 @@
 
 :root {
     --primary-color:#458FF6;
-    --secondary-color:#7D7987;
-    --light-color: #FB8230;
-    
+    --secondary-color:#7D7987;  
 }
 
 .hero-p {
@@ -51,6 +49,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  bottom: 0;
   z-index: 0;
   width: 6%;
   opacity: 30%;
@@ -66,6 +65,46 @@
   width: 10%;
 }
 
-.card-body {
+.card.sec {
   position: relative;
+  background-color: red;
+}
+
+.img-sec {
+  position: relative;
+}
+
+.right-element {
+  position: absolute;
+  left: -40px;
+  bottom: 440px;
+}
+
+.left-element {
+  position: absolute;
+  bottom: -10px;
+  top: 0;
+  right: -60px;
+  z-index: 0;
+}
+
+.footer-section {
+  background: linear-gradient(to bottom, #67C3F3, #5A98F2);
+  position: relative;
+}
+
+.left-footer {
+  position: absolute;
+  bottom: 0;
+  left: -39px;
+  z-index: 0;
+  width: 7%;
+  margin-right: 60px;
+}
+
+.right-footer {
+  position: absolute;
+  bottom: 200px;
+  right: 70px;
+
 }
